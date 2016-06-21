@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Midway through second project - The Words of Wei
+    </title>
+    <link rel="alternate" href="http://www.aweiwithwords.com/blog//feed.xml" type="application/rss+xml" title="Wei's Words">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/blog/css/main.css">
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Midway through second project</h1>
+        <p class="author">Written by <span class="author"><a href="mailto:wei@aweiwithwords.com">Wei</a></span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>I’m writing this on Sat morning, as a sort of update on what I achieved yesterday and as a sort of work-in-progress review of the things I’m going to need to do today as well. <span class="more"></span></p>
+<p>Yesterday I finished generating collision functions on my game, and made it such that the player can’t move outside of the play field. One major problem with collision is that it’s an all-or-nothing response, and that one collision quickly becomes 4-6 collisions because it detects at each frame. Therefore if I make the player lose a life on every detected collision, a player can lose 5-7 lives on a single move through a bullet. To fix this I added collision thresholds, where a player must accumulate 2-3 collisions to be considered hit, and lose a life. This fixed my problem, until I realised that it was still happening where players would now lose 2-3 lives on one move through a bullet, which is reduced but still not ideal. I thus added a clause where if a player took damage, her collision counter would reset to a larger value than the base, such that she would have to have more collisions after a life loss to trigger a 2<span class="ord">nd</span> life&nbsp;loss.</p>
+<p>I thought I fixed it there, but then someone pointed out that damage thresholds seemed to be cumulative, where you would be fairly safe after taking the first hit of damage, and have to accumulate collisions to take life damage. I then added two more functions to fix this— basically pushing the player-state towards a base collision threshold value, so that after taking damage the threshold returns to normal after some time, and that if you do make a minor collision that doesn’t reach damage threshold, playing safe causes your damage threshold to return to normal&nbsp;values.</p>
+<p>The other major breakthroughs I had yesterday were enemy generation and enemy animation. Based on the position and size of the play area, I can generate enemies that move directly up or down. One problem that stumped me, and now I’m not sure why, is that I couldn’t figure out how to create an array that stored all the enemies I created. For some reason I was convinced it was really difficult and I’d have to use prototypical inheritance and constructor functions, and create objects within objects with unique names, and my collision detection would have to know all these names and somehow have them etc etc etc etc. While all those statements -could- be true, talking with one of the TAs made me realise… I can just use an index as an identifier, and use an array to store my enemies. At this point the problem disappeared and I managed to get my enemy generation&nbsp;working.</p>
+<p>The length and complexity of my code is getting to the point where I think I should have created object modules to handle things and separate a whole bunch of things. For example I think my collision calculations should be just one section, my enemy generation another section, and potentially 2-3 more sections. It’s not going to hinder my project, but I really feel like it should be organised a bit better. It’s rather messy right&nbsp;now.</p>
+<p>Now things to&nbsp;do:</p>
+<p>Important things-
+Add a game over function, design the loss.
+Add a game success function, design the success.
+Add levels (perhaps design difficulty?)
+Game start&nbsp;function</p>
+<p>Added functionality-
+Generate random sizes of enemies
+Generate/remove player functions- allowing pauses between&nbsp;stages.</p>
+<p>Fun-
+second screen.
+hidden scores for second screen.
+animation for title etc.&nbsp;story.</p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/blog/">&laquo; Full blog</a></div>
+        <section class="about"><p>Site powered by Wintersmith, made by <a href="http://johan-nordberg.com">Johan Nordberg</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>. Currently using default design until functionality and content are filled.</p>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2016 Wei &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

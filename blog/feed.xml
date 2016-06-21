@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Words of Wei</title>
+    <atom:link href="http://www.aweiwithwords.com/blog//feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://www.aweiwithwords.com/blog/</link>
+    <description>Wei's Words</description>
+    <pubDate>Sun, 19 Jun 2016 01:00:00 +0100</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Making a blog</title>
+      <link>http://www.aweiwithwords.com/blog//articles/my-blog/</link>
+      <pubDate>Sun, 19 Jun 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/my-blog/</guid>
+      <author></author>
+      <description>&lt;p&gt;This post is actually the first post on this blog.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt; The posts before this are going to be slowly populated from a bunch of txt docs that I’d writted about WDI, and somewhere out there in the ether is my really really old blog.&lt;/p&gt;
+&lt;p&gt;Thanks for visiting, and please hold while the old content gradually gets integrated. After the content gets worked out, I’ll work on the layout and stuff.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>2nd Day of WeiDings</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w06d05/</link>
+      <pubDate>Fri, 22 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w06d05/</guid>
+      <author></author>
+      <description>&lt;p&gt;Just projects. Planned to finish my back end completely in one day, but that’s not happening. I doubt it’s happening tomorrow either.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt; This is harder than I thought it was, mostly because of the moving parts that I’ve never really played with before. Once it comes down to just linking and styling I’m going to be so relieved&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Starting on WeiDings</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w06d04/</link>
+      <pubDate>Thu, 21 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w06d04/</guid>
+      <author></author>
+      <description>&lt;p&gt;Basically the start of the projects today, went through wireframes and Trello, and started on projects. Near the end of the day started looking at sending confirmation emails, and how to automatically add people to weddings.
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+I feel bad…&lt;/p&gt;
+&lt;p&gt;but I might not do any of it? I might do some of it? We’ll see.&lt;/p&gt;
+&lt;p&gt;It’s project time, and we’re really into it now. Nothing to really report. Just more wire framing for me today, set my tasks up tomorrow morning, and gogogo. Having a bit more fun that I should be wire framing, and really thinking about the layout and what’s really needed. As a result, I have a lot of things that I’ve cut, and realised isn’t core, but is really useful. Pretty good to really dedicate a day to simply just planning. Usually I structure and go, then plan steps and approaches as I go along, see how this structure goes for me.&lt;/p&gt;
+&lt;p&gt;Maybe I’ll try this pomodoro technique thing? I dunno we’ll see.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Doing Fiverr</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w06d03/</link>
+      <pubDate>Wed, 20 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w06d03/</guid>
+      <author></author>
+      <description>&lt;p&gt;Did devise auth gem in the morning, then Oauth with Facebook, and more Fiverr. Today was tough though, we went so deep into Fiverr, it started to be hard to see the big picture, and the room was warm and after a while we just started falling asleep.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Projects gonna start soon, so mostly just planning intellectually right now. Nothing on paper, just thinking about it, and it looks like I’m committing to a wedding favours/wedding gifts app. Won’t lie, not super excited about the idea of doing it on wedding stuff, but it is ‘life-relevant’ and I might really use it. Oh well.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Planning project 2</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w06d02/</link>
+      <pubDate>Tue, 19 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w06d02/</guid>
+      <author></author>
+      <description>&lt;p&gt;In the morning I had an idea of how to fix all the bitters and bourbon etc problems I had. Then I had a look at the original fixes etc, and I realised why I was doing it all wrong, why I was struggling, and what was the best way of avoiding this problem forever.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt; So I implemented all of it in the morning while we were going through migrations. I really shouldn’t do it, but I was quite excited about the prospect of never fighting the thing I’d been fighting for forever. And it worked, and now I think I’m fairly happy with the solution. It’s a small victory, for sure, but it made me quite happy. Two real take aways from this-&lt;/p&gt;
+&lt;p&gt;“rails g model Order customer:references etc:string” is a great way of linking things that I really should have realised was a thing. I’d thought about it over the weekend, and realised it was a rails only command that we hadn’t done yet.&lt;/p&gt;
+&lt;p&gt;Then we did validations, basically using validates: to make sure fields are filled in, and some stuff like object.errors and object.valid? to show what’s going on behind the hood in Rails.&lt;/p&gt;
+&lt;p&gt;The major part of the day we basically built a rails “Fiver” app, step by step, following a logical sequence.&lt;/p&gt;
+&lt;p&gt;Then we went drinking to plan our projects. Weird day.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>First Ruby on Rails day</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w06d01/</link>
+      <pubDate>Mon, 18 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w06d01/</guid>
+      <author></author>
+      <description>&lt;p&gt;Internet died for the morning so we got stuck doing nothing for quite a while. Looked at some websites and did a small quiz. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;Then we installed rails and basically trivialised all the homework that had come before.&lt;/p&gt;
+&lt;p&gt;Then we learned to scaffold, and do all sorts of rails magic. All the printing of the partials etc etc.&lt;/p&gt;
+&lt;p&gt;I don’t really know what to say, today was a blitz of learning Rails, and really we learned a lot of what happens when we do stuff, but it’s a lot of stuff that we were writing to begin with. Like learning a lot of shortcuts, and a lot of new rules we have to follow to use Rails.&lt;/p&gt;
+&lt;p&gt;Then I did homework, didn’t plan, had no focus, had no purpose, and flubbed it. Very inefficient, and really poor.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Negative design RESTful site</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w05d05/</link>
+      <pubDate>Fri, 15 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w05d05/</guid>
+      <author></author>
+      <description>&lt;p&gt;Skipped the morning lunch and went for a short run instead. I think I like doing this more than going for breakfast unless I actually have questions to casually ask at breakfast, &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;but that’s a very utilitarian way of viewing breakfast.&lt;/p&gt;
+&lt;p&gt;In terms of learning, we basically did testing today. TDD for ruby and then TDD for Sinatra. All spec, and some shoulda for the Sinatra stuff. Again, Fridays are slowish in terms of material to make sure everything’s covered and we’re all good to go for the weekend.&lt;/p&gt;
+&lt;p&gt;Decided to focus on how negative flat design works, so I just decided to use a set of tables/relationships that I was really comfortable with. So I used a gaming set of relationships, and spent most of my time thinking about how to fit components in etc. Quite fun.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>First Bourbon fight</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w05d04/</link>
+      <pubDate>Thu, 14 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w05d04/</guid>
+      <author></author>
+      <description>&lt;p&gt;Had a bad day today. Real bad.
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+Class itself wasn’t too bad, logins, sessions and authentications. Fairly easy conceptually, just building more on top of the knowledge we already have. Did it in the lab, and it was really clear to me.&lt;/p&gt;
+&lt;p&gt;Then we had a review of how relationships work, how we can play with it. We kinda ran through how we would assign values really quickly, and I’m not super clear about it yet, but other than that content wise today wasn’t too tough.&lt;/p&gt;
+&lt;p&gt;The bad day started the moment I started on homework. I decided I’d do Bourbon, and I was angry and stubborn and decided that I would learn something rather than just do something I was feeling comfortable with. Then Bourbon with bitter and Bower didn’t play nice and started putting up a fight. So I fought with Bower, fought with Bourbon, and fought for 2 hours. In the end I got so angry that I decided if Bitters needed a Bourbon it liked, and Bower wouldn’t serve me the Bourbon that Bitters wanted, then I’m not having Bourbon or Bitter. I’ll just throw everything to the ground, tie up my stuff with Bootstrap, and get on the road. So I did. But now I’ve got a bitter taste in my mouth.&lt;/p&gt;
+&lt;p&gt;So I posted a question to the group chat and hopefully we’ll have a look at a good way of installing Bourbon.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>SCSS and Bower</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w05d03/</link>
+      <pubDate>Wed, 13 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w05d03/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today we went through SCSS/Sass, asset packs, and bower. Feels a bit like a haze, I honestly can barely remember what we learned today. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;SCSS I understand, it’s a CSS simplifier that compiles scss into css. I think I understand bower, it’s like a package manager for front end stuff. Not sure I understand assetpack, I think it’s a compiler for everything, but I’m not sure where bower ends and asset pack begins or even where SCSS fits into it. A bit of a weird day, like it all kind of melds into one, and I can see how to use it but not how the pieces of the puzzle are shaped and how they fit together.&lt;/p&gt;
+&lt;p&gt;Homework is ramping up for me. I’ve hit the point where I’m forgoing functionality or style to finish everything I want to finish (though tbh I’m aiming above the minimum spec of the homework). I’m still managing to finish what my priorities are, but I’m no longer having the time to really make stuff fantastic. A lot of it I feel is muscle work rather than brain work, so by the time you hit the brain work, you’ve spent a lot of time tackling other muscle-work fine-touch kind of things, so you’re tired. I guess the goal is to make your stuff bug free and almost in muscle memory.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>RESTful SQL</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w05d02/</link>
+      <pubDate>Tue, 12 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w05d02/</guid>
+      <author></author>
+      <description>&lt;p&gt;Lots and lots of learning and syntax to really understand and process today. Challenging in a different way because the struggle wasn’t a matter of ‘technique’ but more a matter of ’strength’. Lots of material, but conceptually not difficult- so one of my weaker types of days. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Did introduction to Rack and Modular set up of an app for deployment. Learned about tux, migrations and linking SQL tables. And finally made a RESTful site integrating Sql using Active Record. Lots of things that have basically already been done but in a sort of messy illogical.&lt;/p&gt;
+&lt;p&gt;Finally for homework, RESTful website with a sql database. I took an hour off and got a haircut, so I didn’t get as much styling done as I wanted to, but tried my hand for the first time at a negatively designed website. I might continue making them, I’m not sure how they work design wise yet. Well, ‘hey ho’ and all that.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>SQL and Carmen Sandiago</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w05d01/</link>
+      <pubDate>Mon, 11 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w05d01/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today we basically did SQL. So we started with an intro to SQL and postgres (PSQL), and drawing data charts and stuff, and then we did SQL queries. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;I struggled heavily with SQL queries, because I couldn’t understand how JOIN was working or how to look into multiple tables. But the lesson moved swiftly on…&lt;/p&gt;
+&lt;p&gt;Next we linked SQL to ruby via ‘pg’ and then made a restful website with SQL. Overall I admit my full understanding of how this all works and how to type it blind etc etc is still pretty hazy, so I hope over time I’ll get more practice and be able to type all of this stuff without having to fully rely on copying and pasting code that had previously worked and that we had done before. Oh well.&lt;/p&gt;
+&lt;p&gt;For homework we had to do Carmen Sandiago via SQL queries. Which I was fairly happy to get as homework, because I knew I needed practice with it, but I strapped myself in to struggle with it. And struggle I did. Then near the end, came a watershed moment where I saw JOIN’s face clearly, and understood what it did. I still didn’t understand her language, but I saw what JOIN could do, and some of how I could use it. It was quite a gratifying moment… but then the last question didn’t need a JOIN and that was it.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Pig Latin code test Friday</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w04d05/</link>
+      <pubDate>Fri, 08 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w04d05/</guid>
+      <author></author>
+      <description>&lt;p&gt;So Fridays are slow, especially if there’s nothing I really want to ask or find out about, and I don’t really have that many questions this week.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt; Instead we did a code test, like exercism or something? We did a pig latin translator which is quite fun. Approaching logical problems is always quite fun, and you always learn something- if not about approach then about potential syntax that you can use to make code either dryer or more readable. Quite good.&lt;/p&gt;
+&lt;p&gt;Then we did object oriented blackjack, to get used to object oriented stuff, and we ended the day with a grand national bet randomiser for the class.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Restful Pokedex Homework</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w04d04/</link>
+      <pubDate>Thu, 07 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w04d04/</guid>
+      <author></author>
+      <description>&lt;p&gt;Went through homework, and went through my bug. Not entirely sure how it works, but now I know where to look to see exactly what happened.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt; I actually sorta wanna know how the back end of Ruby works, because it doesn’t quite make sense to me. Though tbh functionally it isn’t a problem- I can just work around it.&lt;/p&gt;
+&lt;p&gt;So today we did Sinatra. Feels like we did all of what we did in express in Sinatra in a day. Pretty heavy. Getting data from forms, make controllers etc etc etc. I got really distracted halfway through since it really feels just like doing the same thing again.&lt;/p&gt;
+&lt;p&gt;For homework, we were supposed to make a randomiser. I’d done that before in a lot of my previous homeworks, and specifically a compliment generator I’d made in like week one. So instead, Alex was like… make a pokedex. So I made all the functionality of a pokedex, but really looking back on it I should have made the design of one instead. Oh well.&lt;/p&gt;
+&lt;p&gt;Not much to say. Homework wasn’t groundbreaking, but I spent such a long time building the infrastructure, and in the end didn’t do enough CSS, I feel. I probably should spend a lot more time on CSS. I did, however, learn how to make circles and stuff… so there is that. I still need to learn how to do responsive design.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Ruby Animal shelter homework</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w04d03/</link>
+      <pubDate>Wed, 06 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w04d03/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today we had outcomes, did a huge homework review of how to make blackjack, and learned how classes in ruby work and how inheritance works.
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+Outcomes was interesting, got an old hand who came in and talked about his journey. I guess it’s probably a good idea for me to go out and network. I always feel a little eh about networking, I’m not naturally a very outgoing person, but I’ve sort of pushed myself towards that direction. Other than that I guess there’s not that much new news.&lt;/p&gt;
+&lt;p&gt;Classes in ruby… I understand them but I’m not sure if “object oriented programming” is something that you do in ruby. Feels a little weird? Like there aren’t really objects to orient to? I mean there are definitely objects to orient myself to but I don’t know if you straight up just program within an object like you do in Javascript&lt;/p&gt;
+&lt;p&gt;Homework was making a command-line ruby program simulating an animal shelter, with various functions like registering animals, registering people, etc etc. Conceptually not difficult, but I made it really hard by the amount of input checking I did and the fact that I fundamentally misunderstood the role of the animal shelter. Only 4 functions were requested but I ended up with 6. Oh well.&lt;/p&gt;
+&lt;p&gt;2 interesting bugs- one with require_relative and another with trying to use attr_accessor to redefine local variables within an instance of a class. I’ll try to ask tomorrow, I can’t really find an answer online.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Blackjack Homework</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w04d02/</link>
+      <pubDate>Tue, 05 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w04d02/</guid>
+      <author></author>
+      <description>&lt;p&gt;So today we did Ruby enumerables, which I understood basically as a bunch of methods that Ruby has to manipulate its objects easily. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;Then we did a benchmarking competition, and I lost terribly… but I did have code that could fit into twitter, and otherwise just looked gorgeously simple and easy to change. So there is that.&lt;/p&gt;
+&lt;p&gt;Alex brought the dog again, I realised it’s not his dog and I was disappointed that we weren’t going to see that much more of it later. I learnt its name is Cerby, probably short for Cerberus, and I appreciated how fluffy it was.&lt;/p&gt;
+&lt;p&gt;Seems like a short day, but I was sadly quite distracted. I got a message from the Singapore Army that told me I needed to renew an exit permit that stops them from calling me in for army service. Then I realised I needed to login using some SingPass thing and it was really fiddly and I didn’t know my password etc etc… but I got it sorted in the end… and then I lost like about 2-3 hours of class in the haze. Pretty bad, but I think I caught up.&lt;/p&gt;
+&lt;p&gt;Homework was blackjack, and it was a bit of a doozy. Following on from things that I don’t fully get and things I’m not fully comfortable with, I couldn’t really get everything I wanted in the game into the game. I got double working, and betting, and blackjack and push, but I didn’t put any jokes nor did I code split. Which is mildly disappointing for me. Oh well, in a way I’m fairly happy I’m still comfortable -enough- to push myself&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Subway homework</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w04d01/</link>
+      <pubDate>Mon, 04 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w04d01/</guid>
+      <author></author>
+      <description>&lt;p&gt;We started with ruby today, and I managed to get up to go the the gym. Hurrah.
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+Ruby feels a little bit foreign to me, I guess I’m a little less ‘human’ now? I find the brackets and the clear notation of javascript a little comforting, but ruby’s just another language and I definitely agree the error handling for ruby feels so much more elegant and useful.&lt;/p&gt;
+&lt;p&gt;The other thing we learnt was Matz Is Nice And So We Are Nice, or MINASWAN, which amuses me. Since Matz is JP, I’m sure it was made with the idea that we are all special swans, since ‘mina’ is ‘everyone’ in jp. Also I learnt he’s Mormon. So this all makes sense to me. JP is an unreasonably polite culture, and the Church of the Latter Day Saints are too.&lt;/p&gt;
+&lt;p&gt;Then we learned about arrays and objects and symbols in Ruby, made a calculator, then homework.&lt;/p&gt;
+&lt;p&gt;Homework was really interesting to me, since the most elegant and novel solution isn’t the best solution. The elegant and novel solution involves assigning values based on a theoretical zero point. The normal solution just uses normal distance indexes. While both work, the elegant and novel solution is really short,but requires a little work to assign values. The other requires a lot more code, but ends up being scalable and adjustable. Kinda interesting. I guess it takes more code to be stable, but less code to be pretty.&lt;/p&gt;
+&lt;p&gt;In the end I wrote 180 lines. And most of it was because of stability and user experience. I can’t really tell how elegant my solution is, because of it… but it does work really smoothly.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Recap Friday</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w03d05/</link>
+      <pubDate>Fri, 01 Apr 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w03d05/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today we covered the things I failed to do in the last homework, which I’m fairly happy about, and I feel fairly confident about it now. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;Other than that: slow day. Lots of recap, talking about mafintosh, etc. The Internet went down midway through a lesson when we were supposed to be installing express-els-layouts, so we got completely stalled. So we made the American flag in HTML and CSS, and Alex brought his pom in. I love poms.&lt;/p&gt;
+&lt;p&gt;Then we played around with controllers and stuff, which I need to practice. Can’t really figure out what website to make right now, I think I’ll just make my Slack. I don’t really need something particularly outstanding, and I was actually really happy with my Pug homework design yesterday, so I think I’ll just focus on getting everything working, and see how it goes.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>RESTful Pages</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w03d04/</link>
+      <pubDate>Thu, 31 Mar 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w03d04/</guid>
+      <author></author>
+      <description>&lt;p&gt;WDI started, and I was told it would be useful to record the things I did, maybe the thoughts I had, and oh the place I’ll go. So I guess I’ll start with where I’ve begun.&lt;/p&gt;
+&lt;p&gt;Ran through doing servers again today. Really felt like this was the slog that I’m just not used to at all. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;The amount of steps is staggering, and I’m really not sure I’m going to remember all of them. For now I just take the steps as is and just follow, but one day I hope to be comfortable enough to get it done without having to use references.&lt;/p&gt;
+&lt;p&gt;Went through CRUD and the 7 RESTful actions, basically just templates to use when manipulating form data. I quite enjoy these kinds of things, organisation is incredibly important to really getting things working, but I also kinda feel this doesn’t need to be a full lesson.&lt;/p&gt;
+&lt;p&gt;The homework was pretty much the same stuff as the day, so it should have been pretty easy… but it wasn’t. I tried to write the server from scratch again, to get familiar and to learn more, and then I tried to use a npm module I hadn’t learned yet. So I built my site, got it working, and then tried to edit… then my site didn’t work. I struggled for like an hour an hour half, only to discover… it was my server that was what was wrong.&lt;/p&gt;
+&lt;p&gt;After that I made a page full of pugs to make myself feel good. #feelsgoodman&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>First Node Server</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w03d03/</link>
+      <pubDate>Wed, 30 Mar 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w03d03/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today we’re back to learning, and what a doozy it was. We started easy, with mostly a history lesson and an outline of how the Internet works. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;Then we had an outcomes talk, about pitching yourself. I feel like that’s probably one of my weak points, I’m not entirely sure why but I’m never really comfortable talking about myself positively, especially to strangers. It’s a skill I really need.&lt;/p&gt;
+&lt;p&gt;Then it got real hard real fast. Intro to Node, which was reasonable, then quickly accelerating to coding what I understand to be a server for a website using express, using npm, and then left us to figure out how to get form data, how to print it on a website, etc etc for homework. I totally had difficulty figuring out how to build the server from scratch, because the pace was so fast, but I guess if I do it more it might become second nature. For now I can just follow the steps, I understand the functions but I won’t be able to piece them together myself and remember what’s missing etc for now.&lt;/p&gt;
+&lt;p&gt;Homework turned out to be easy right after you figured out how to build the server, the rest I was pretty comfortable with figuring out, since you can tell where everything points. Then I spammed memes, helped explain stuff to others since the TAs weren’t around, and went home. Still sick, so better get more sleep.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>First project complete</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w03d02/</link>
+      <pubDate>Tue, 29 Mar 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w03d02/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today just did presentations and the readme.
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+So everything’s finished with the project. Everyone had a bunch of really interesting problems and challenges. It’s really fun to think about other people’s problems and try to figure out exactly how they coded it. I think a lot of people’s solutions that they landed on in the end were probably more efficient and elegant than what I would have done.&lt;/p&gt;
+&lt;p&gt;Not much to talk about really. presentations and projects done, so now it’s learning tomorrow. Exciting.&lt;/p&gt;
+&lt;p&gt;project completed -
+Generate random sizes of enemies
+Add a game over function, design the loss.
+Add a game success function, design the success.
+Add levels (perhaps design difficulty?)
+Game start function
+create good bullets
+-add collision,
+-add generation (button is ok)
+changed destruction mechanics to create new bullets
+Fixed bullet flying outside the areas
+Changed colour scheme radically
+karma!
+endless mode
+make menu smaller, cleaner
+resolve menu for: start game, game over state, reset button
+animation for title etc.
+instructions.
+add music
+added fonts&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Easter, and project 1</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w03d01/</link>
+      <pubDate>Mon, 28 Mar 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w03d01/</guid>
+      <author></author>
+      <description>&lt;p&gt;More project stuff, mostly finished so I can talk a little more about what I did.
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+Got in late today due to Easter transport being messed up. Left half an hour early, and arrived half an hour late. One of the buses straight up ignored me and just rolled on through. I mean it’s Easter right but if you’re going to go to work at least do your job and let others get their stuff done. He sprayed me with water too to add insult to injury.&lt;/p&gt;
+&lt;p&gt;Anyway, after trying to doge-ify my game by adding doge pictures and nonsense like that into my game to make it cuter and more amusing, I drove Peter’s project into a very meme heavy direction. One that I think is hilarious, and I think Alex approves. In his case at least. In my case he just told me to clean up my UI elements and decide on a design direction. Which is fair enough, I like these New Courier fonts, but I think most people actually hate them. Instead went for the Sans Serif route and Verdana-ed the whole thing to make it look cleaner. Pity I can’t use cooler fonts. Amusingly, I think Peter’s game is going to benefit heavily from the Doge-ification of it, with the game having a lot more punch, a lot more character, and a lot more levity. My game just has a lot of functionality, and not as much design, which is kinda fair- secretly Peter’s been getting help from his design grad brother, which is totally cool. I just wanted a fun bullet hell game, which I got.&lt;/p&gt;
+&lt;p&gt;Oh well, so far:&lt;/p&gt;
+&lt;p&gt;completed -
+Generate random sizes of enemies
+Add a game over function, design the loss.
+Add a game success function, design the success.
+Add levels (perhaps design difficulty?)
+Game start function
+create good bullets
+-add collision,
+-add generation (button is ok)
+changed destruction mechanics to create new bullets
+Fixed bullet flying outside the areas
+Changed colour scheme radically
+karma!
+endless mode
+make menu smaller, cleaner
+resolve menu for: start game, game over state, reset button
+animation for title etc.
+instructions.
+add music&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weekend update of second project</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w02d06/</link>
+      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w02d06/</guid>
+      <author></author>
+      <description>&lt;p&gt;As it’s project week, my weekend will have a post of all the coding stuff I did, and is basically a laundry list of things I complete, and things I have yet to do and have planned. As such…
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+Completed -
+Generate random sizes of enemies
+Add a game over function, design the loss.
+Add a game success function, design the success.
+Add levels (perhaps design difficulty?)
+Game start function
+create good bullets
+-add collision,
+-add generation (button is ok)
+changed destruction mechanics to create new bullets
+Fixed bullet flying outside the areas
+Changed colour scheme radically
+karma!
+endless mode
+make menu smaller, cleaner&lt;/p&gt;
+&lt;p&gt;To do:
+on damage effects
+reset player position, add animations
+resolve menu for: start game, game over state, reset button
+animation for title etc.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Midway through second project</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w02d05/</link>
+      <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w02d05/</guid>
+      <author></author>
+      <description>&lt;p&gt;I’m writing this on Sat morning, as a sort of update on what I achieved yesterday and as a sort of work-in-progress review of the things I’m going to need to do today as well. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Yesterday I finished generating collision functions on my game, and made it such that the player can’t move outside of the play field. One major problem with collision is that it’s an all-or-nothing response, and that one collision quickly becomes 4-6 collisions because it detects at each frame. Therefore if I make the player lose a life on every detected collision, a player can lose 5-7 lives on a single move through a bullet. To fix this I added collision thresholds, where a player must accumulate 2-3 collisions to be considered hit, and lose a life. This fixed my problem, until I realised that it was still happening where players would now lose 2-3 lives on one move through a bullet, which is reduced but still not ideal. I thus added a clause where if a player took damage, her collision counter would reset to a larger value than the base, such that she would have to have more collisions after a life loss to trigger a 2nd life loss.&lt;/p&gt;
+&lt;p&gt;I thought I fixed it there, but then someone pointed out that damage thresholds seemed to be cumulative, where you would be fairly safe after taking the first hit of damage, and have to accumulate collisions to take life damage. I then added two more functions to fix this— basically pushing the player-state towards a base collision threshold value, so that after taking damage the threshold returns to normal after some time, and that if you do make a minor collision that doesn’t reach damage threshold, playing safe causes your damage threshold to return to normal values.&lt;/p&gt;
+&lt;p&gt;The other major breakthroughs I had yesterday were enemy generation and enemy animation. Based on the position and size of the play area, I can generate enemies that move directly up or down. One problem that stumped me, and now I’m not sure why, is that I couldn’t figure out how to create an array that stored all the enemies I created. For some reason I was convinced it was really difficult and I’d have to use prototypical inheritance and constructor functions, and create objects within objects with unique names, and my collision detection would have to know all these names and somehow have them etc etc etc etc. While all those statements -could- be true, talking with one of the TAs made me realise… I can just use an index as an identifier, and use an array to store my enemies. At this point the problem disappeared and I managed to get my enemy generation working.&lt;/p&gt;
+&lt;p&gt;The length and complexity of my code is getting to the point where I think I should have created object modules to handle things and separate a whole bunch of things. For example I think my collision calculations should be just one section, my enemy generation another section, and potentially 2-3 more sections. It’s not going to hinder my project, but I really feel like it should be organised a bit better. It’s rather messy right now.&lt;/p&gt;
+&lt;p&gt;Now things to do:&lt;/p&gt;
+&lt;p&gt;Important things-
+Add a game over function, design the loss.
+Add a game success function, design the success.
+Add levels (perhaps design difficulty?)
+Game start function&lt;/p&gt;
+&lt;p&gt;Added functionality-
+Generate random sizes of enemies
+Generate/remove player functions- allowing pauses between stages.&lt;/p&gt;
+&lt;p&gt;Fun-
+second screen.
+hidden scores for second screen.
+animation for title etc.
+story.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Start of first project</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w02d04/</link>
+      <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w02d04/</guid>
+      <author></author>
+      <description>&lt;p&gt;It’s basically the start of our projects, and I discovered late last night that one of the alumni made Duck Hunt.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt; Not to be outdone, I decided to create dual element game in the vein of The World Ends With You, a dual screen game. Totally stoked to do it… until I actually had to do it. Without using libraries and stuff, I’m finding myself looking up online for a whole bunch of solutions to a whole bunch of problems.&lt;/p&gt;
+&lt;p&gt;First an outline of the game:
+2 screens.&lt;/p&gt;
+&lt;p&gt;The main screen is a ‘bullet hell’ type game, where you use the arrow keys to move a box around the screen to avoid bullets that fly at you.&lt;/p&gt;
+&lt;p&gt;The second screen is a clicking type game, where you click the right coloured things or whatever sort of clicking mouse mini game I can think of, maybe a hover game. Success in this game gives positive feedback to the other game, maybe via removing enemies, or dropping extra health for the player to collect.&lt;/p&gt;
+&lt;p&gt;As a concept, and with other libraries and tools, it doesn’t seem terribly hard, since a lot of people make these kinds of games, but in raw javascript this has become some form of herculean task, where I’m thinking about the math of all the events and what I need to do, and at the same time trying to think of how javascript needs to work to do it. I’ll outline what problems I’ve met, and what I’ve solved.&lt;/p&gt;
+&lt;p&gt;Firstly I had to figure out how to make my player move. I’ve done that.
+Then I had to figure out how to make collision detect. I’ve done that.&lt;/p&gt;
+&lt;p&gt;The next problem is how to make collision stop things. For example I need to stop my player from flying out of the play area.&lt;/p&gt;
+&lt;p&gt;I’m getting a headache.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Twitter Homework</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w02d03/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w02d03/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today was the introduction to JQuery, or as I am loathe to admit, Jake Weary. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;A lot of things I wanted to do before but had to do it in a roundabout way or things that are just kinda repetitive. Which is totally cool, since I can see that typing things might just take forever.&lt;/p&gt;
+&lt;p&gt;Other than that, when homework rolled around I’d strapped myself in for a long hard night. We were shown a bunch of tweets, and told to populate a page with them. I immediately thought that I’d have to create individual elements, and after that plug in the values, but after a little reflection, I realised you can just append the whole thing into the right place, and just input values directly during the append. And in record time, I was done with the majority of the homework, so much that I had a lot of time to familiarise myself with JQuery.&lt;/p&gt;
+&lt;p&gt;In the end I stayed back really long because Tracy who was next to me decided on a totally different approach. Instead, she was appending the template texts, and then searching within the appended text and replacing it. A kinda inelegant solution, but an interesting one, because it inevitably really used a lot of Jquery. Ended up leaving late, but learning more.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Second Week, Second Day</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w02d02/</link>
+      <pubDate>Tue, 22 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w02d02/</guid>
+      <author></author>
+      <description>&lt;p&gt;Day starting with a really short homework review. It’s good that everyone’s getting comfortable, and it looks like no one had significant problems today with the work. Good stuff.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt; Chanse looks like the go-to guy for stylin’ so I gotta pick up some tips from him. Cool stuff.&lt;/p&gt;
+&lt;p&gt;Went through ‘this’ even more. I get it now, but it’s kinda weird to really work with it. Useful though. But still weird&lt;/p&gt;
+&lt;p&gt;Also went through object oriented programming, and I actually find it easier now to go through it using object oriented programming. I can problem make it a lot more efficient at storing the values, but for now at least I can contruct really easily.&lt;/p&gt;
+&lt;p&gt;Homework was realistically really short, but I stayed back a long time to work through stuff with other people who were having issues. And think about other approaches to any of the problems or stuff that I did. Quite good to help people debug because it really helps me understand how to find my own errors, and it’s quite challenging some times. Left much later than I should have probably though, having too much fun. Also left my charger there, like a boob. Oh well.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Daft Punk Soundboard Homework</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w02d01/</link>
+      <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w02d01/</guid>
+      <author></author>
+      <description>&lt;p&gt;Not a particularly challenging day in terms of most of the lessons. Officially we went through the tic-tac-toe solution that uses arrays to store moves.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt; I originally considered using arrays to store moves, and then using indexOf() !== -1 to check for winners, but I decided using the innerHTML to store data was more elegant a solution. After looking at the code, I’m not sure which is better, but they both work. I must admit I’m probably more interested in the pseudo AI and some of the bugs it still has.&lt;/p&gt;
+&lt;p&gt;Mostly we went through tic tac toe to reinforce understanding of functions and scope, but I felt really comfortable with it anyway so it was quite relaxing for me. Then we were taught objects, which also was fairly comfortable&lt;/p&gt;
+&lt;p&gt;Then he introduced a little bit of object oriented programming, and explained ‘this’, both really briefly because we were running out of time in the day. With not much detail, I’m fairly sure most of that just whizzed over people’s heads. I mostly got it, but I still really need to play around with it to fully understand what it all means and the advantages etc.&lt;/p&gt;
+&lt;p&gt;Capped off the day by explaining prototypes and audio briefly, and then homework.&lt;/p&gt;
+&lt;p&gt;Homework was really short for me, and I know Peter had no issues either, make a soundboard. I finished the functions and the framework, leaving only extra stuff and CSS, within an hour half, and went off to dinner. Didn’t spend as much time as I wanted to on the homework- didn’t make it object oriented, but I did pretty much understand ‘this’ and binding it.&lt;/p&gt;
+&lt;p&gt;Hopefully tomorrow explains the issues I had with ‘this’ and expands on object oriented programming. Alex explained ‘this’ to me and some other functions, which is what led me to look up binding, which helped me understand ‘this’ in turn. He also suggested that in my free time I make my tic tac toe object oriented, so that I fully understand object oriented programming. But take it step by step.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weekend Javascript Tic-Tac-Toe</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w01d05/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w01d05/</guid>
+      <author></author>
+      <description>&lt;p&gt;Friday rolled round, a really chill day today actually. Went through a 3rd version of a calculator, &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;this time with numbered buttons that are the interface for input, as opposed to one with multiple input fields and operations. Kinda cool, I neglected the idea of simply changing the data in the DOM HTML as a form of storage until then.&lt;/p&gt;
+&lt;p&gt;On reflection, covered a lot of things this week. I wouldn’t be able to do what I can do now a week ago. It’s a lot of content, and they highlighted the amount of content we went through. I’m still not super challenged yet, but it’s been kinda fun challenging myself and reaching further than I probably should.&lt;/p&gt;
+&lt;p&gt;On Friday, we wrapped up early, and went to the pub after reviewing the week, and I pretty much was recommended not to start on my homework until Saturday, so get a good sleep and just start fresh. I admit I pretty much disregarded that advice, and got my homework to a submittable state on Friday night after about an hour and a half.&lt;/p&gt;
+&lt;p&gt;That being said, I did probably spend about 4-5 more hours on it, trying to add a lot more functionality, and playing around with the most elegant solutions to the code. In the end, I added a game win counter, added a function that basically stores each game played at the bottom of the screen, and finally programmed the computer to play against you. Since it’s tic-tac-toe, I basically programmed it to win or draw, since there is an optimal hand in tic-tac-toe. I also learned some tricks to style it. Actually the process of figuring how to program the computer to play tic-tac-toe, and how to style it, was really interesting and useful, and I thus probably spent way too much time on it that I should have.&lt;/p&gt;
+&lt;p&gt;I also learned that sleeping on a problem really helps you get a solution. I was having a problem figuring out how to get the script to identify moves that would allow it to win, and I slept on the problem. And when I woke, I had the solution.&lt;/p&gt;
+&lt;p&gt;Oh well, let’s see how the next week goes.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Javascript with pages</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w01d04/</link>
+      <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w01d04/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today we did functions, and DOM, and thus making our javascript interact with webpages. Quite challenging, I developed a headache that still hasn’t gone away and it’s 2am.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt; I suspect I’m overthinking a lot of things, and tracking a lot of things I don’t need to track in my head and that’s what’s giving me the headache. It feels like the same kind of headache when I start planning too far ahead than what is comfortable for me in games like Go or even Spacechem (a puzzle game) some times. Either that or it’s just staring at the screen too much and the light is giving me it.&lt;/p&gt;
+&lt;p&gt;I really like the idea of keeping my code dry, and using a lot of functions to simplify a lot of the code that you use. I really like tidy looking code that I can easily interpret, otherwise it just annoys me. Simple is beautiful, what can I say.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Javascript Prompt Calculator Homework</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w01d03/</link>
+      <pubDate>Wed, 16 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w01d03/</guid>
+      <author></author>
+      <description>&lt;p&gt;I realise I have a somewhat irreverent description of my time in WDI in GA. To clarify, I still think about the course a lot, it’s just that my learning is fairly directed and easy to describe, so it comes out as succinct comments.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt; The other small bits about the day just amuse me, but are a lot harder for me to describe. I record the day’s progress by a series of notes, and a vast majority of them aren’t strictly work related.&lt;/p&gt;
+&lt;p&gt;So my goal in sitting today, after sitting next to the air conditioner that blew cold air at me most of the day on Tuesday, was to sit on the left near the window. Become Dayman, fighter of the Nightman, champion of the sun. I must say, I really like the sides for the extra space to put your bag and water and stuff. And the sunny side is more pleasant, but doesn’t have as good a view on the board, since the board is on the right and our instructor, Alex, is right handed.&lt;/p&gt;
+&lt;p&gt;I also decided to travel much further for food for lunch, all the way to the Japanese Kitchen, which Cat suggested. I had the Korean Fried Chicken donburi for 6 pds, and it was pretty big, and really tasty. I realise I’m spending a lot on food for a person on course. I’ll cut down as time rolls on, but food is a fairly personal thing, and culturally and personally, I value eating. I don’t spend much on other things, but I definitely love eating- and in general I eat a lot.&lt;/p&gt;
+&lt;p&gt;Standard scrum, didn’t drop the duck, and I presented my website. Fairly happy with it, it wasn’t as bad as I thought it really was, but I’d really like to fix a lot of it to be neater in my head. It’s probably never-ending, refining your website until you’re completely happy with it, but the website is certainly functional. It’s pointed out I should get in the habit of using tags like &amp;amp;lta&amp;gt; and &amp;amp;ltnav&amp;gt; and things like that to at least denote what things are meant to be and so on.&lt;/p&gt;
+&lt;p&gt;After which we went through positioning, floating, and clearing in CSS, a topic which I really feel is just a matter of practice, since the more sites you build, the more familiar you’re going to end up with how the positioning all works. As it is, it really feels like the differences between inline and inline float, seem rather unclear, but I guess in time they will seem more obvious.&lt;/p&gt;
+&lt;p&gt;Had an outcomes talk, about finding a job, the game-plan kinda job. I always get a little nervous about these things, because pitching at the right level always feels a little challenging. Am I being overconfident and cocky? Am I underselling the things I can do? Especially when my depth of technical knowledge and industry knowledge isn’t really there, I always get nervous about these outcome talks.&lt;/p&gt;
+&lt;p&gt;Then came an intro to javascript, and command flows, and in the afternoon we did paired programming of a basic game using basic javascript command flows, ‘if’s, ‘else’s, ‘while’s, ‘for’s and ‘switch’es. Also returning results using alerts and console.logs. I’d done quite a bit of it before so it all felt fairly natural, as did the homework of making a javascript prompt driven calculator. Working with Faduma was fairly easy, but for sure I found it difficult explaining exactly the kind of game that I wanted to create in concrete terms that would help code. The problem I suspect is that I’m building the structure of the code as I describe what I want, which ends up being too specific for a guideline, and not specific enough to actually be code. While this makes the coding decisions easier for me, it did mean that when Faduma was coding, how or what to code isn’t fully clear. I somewhat felt like I was mostly leading her, so I feel a little bad about it, but I honestly hope she got something out of it.&lt;/p&gt;
+&lt;p&gt;I must admit, both my projects today were very entertaining for me to build, and probably very self indulgent. The game Faduma and I built was a simulation of Monty Python’s Bridge of Doom skit in The Quest for The Holy Grail, which asks 3 questions and kills knights if you answer it badly. She suggested a quiz, and off the cuff that was the first game-like quiz that came to my mind. Following on the theme, I named the calculator we made for homework ‘The Mathemagician’. I also added a lot of attitude to the prompts, and the calculator constantly insults you while doing the operations. A very user-unfriendly calculator. I enjoyed it, but I would not recommend actually using it for anything but your own amusement a few times. Probably a low Metacritic Score. Would not see on Steam Greenlight.&lt;/p&gt;
+&lt;p&gt;This is a really long blog post, mostly because I finished the work really quickly and painlessly today, so there’s not much mental fatigue. The posts’ll probably thin out over time.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Instagram Homework Day</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w01d02/</link>
+      <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w01d02/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today I learnt that Alex really likes to use analogies. While I personally drift off slightly when the tea and biscuits, ingredients and cooking analogies are employed, it’s probably a good way to normalise otherwise esoteric ideas.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We went through using git, github, html and css, and now it’s just a matter of getting familiar and using it a lot. One thing’s for sure, I anticipate commitment problems. It seems a little counter intuitive to save and then double save every now and then via committing. Only one thing to do- git gud.&lt;/p&gt;
+&lt;p&gt;Called my friend to cancel a dinner with his parents at Lurra, which evidently is a meat place because when I got home my significant other had brought me a bone with some meat on it. Good stuff.&lt;/p&gt;
+&lt;p&gt;Got stuck in with the homework- copying a webpage from a png. Most people stayed back to around 8.30, I left around 9.00 and on the way back realised I wanted to tweak a little bit of the code, so I did. My significant other also pointed out that wayback machine online caches the old webpages that we were assigned to copy. I took a look at the bits I couldn’t figure out after I decided I was done with the homework to confirm some of my suspicions. Maybe I’ll correct it to be more in-line with the original website eventually, but as far as homework goes, I probably should just leave it as I did it, and not ‘cheat’, and just learn about how they actually did it another time.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>First Day</title>
+      <link>http://www.aweiwithwords.com/blog//articles/wdi-w01d01/</link>
+      <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://www.aweiwithwords.com/blog//articles/wdi-w01d01/</guid>
+      <author></author>
+      <description>&lt;p&gt;WDI started, and I was told it would be useful to record the things I did, maybe the thoughts I had, and oh the place I’ll go. So I guess I’ll start with where I’ve begun.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I’ve started a Web Development Intensive course at General Assembly, where I should be learning how to use javascript, java libraries, and ruby and its associated libraries. My previous experience is mostly copy pasting with mild modifications scripts for Excel or HTML and CSS back from 2004. While I’d done some Codeacademy javascript before the course, and the precourse javascript work, I’d never really done any of the hard stuff, or had anything to really build with the coding languages that I was taught.&lt;/p&gt;
+&lt;p&gt;So today I installed a bunch of stuff on a MacBook which I’ve borrowed from a good friend for the course, learned how to fold a great paper aeroplane, and had a pint at a pub.&lt;/p&gt;
+&lt;p&gt;Fairly productive first day, except for the installing- that was incredibly dry.&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
