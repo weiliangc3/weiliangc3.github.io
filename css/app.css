@@ -4952,6 +4952,15 @@ div.bigbuttons div.bigbutton.active:hover div.overlay {
   opacity: 0.15;
 }
 
+.fade.ng-enter {
+  transition: 0.5s linear all;
+  opacity: 0;
+}
+
+.fade.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
 .hero {
   background: #121212 no-repeat center center;
   background-size: cover;
@@ -5070,4 +5079,175 @@ div.bigbuttons div.bigbutton.active:hover div.overlay {
 .footer .links a:last-child::after {
   content: "";
   padding: 0 0.4rem 0 0.8rem;
+}
+
+main.specialportfolio a {
+  display: inline-block;
+  padding: 0.5em;
+  background-color: #040E2C;
+  border-radius: 0.5em;
+  transition: 0.2s ease all;
+}
+
+main.specialportfolio a:hover {
+  background: #223263;
+}
+
+main.specialportfolio div.quart {
+  height: 50vh;
+  width: 50vw;
+  transition: 0.5s all ease;
+  position: fixed;
+}
+
+main.specialportfolio div.tl {
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+main.specialportfolio div.tl div.underlay {
+  background-color: #353F7E;
+}
+
+main.specialportfolio div.tr {
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+main.specialportfolio div.tr div.underlay {
+  background-color: #6FA537;
+}
+
+main.specialportfolio div.bl {
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+main.specialportfolio div.bl div.underlay {
+  background-color: #B8953D;
+}
+
+main.specialportfolio div.br {
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+main.specialportfolio div.br div.underlay {
+  background-color: #A1355B;
+}
+
+main.specialportfolio div.main {
+  left: 25vw;
+  top: 15vh;
+  height: 70vh;
+  z-index: 5;
+  overflow-y: scroll;
+}
+
+main.specialportfolio div.main div.underlay {
+  opacity: 0;
+  background-color: #fff;
+  z-index: 6;
+  transition: 0.5s all ease;
+}
+
+main.specialportfolio div.main div.content {
+  font-family: "Open Sans", "Helvetica", Arial, sans-serif;
+  padding: 1em;
+  opacity: 0;
+  position: relative;
+  z-index: 7;
+  transition: 0.5s all ease;
+}
+
+main.specialportfolio div.main:hover div.underlay {
+  position: fixed;
+  height: 70vh;
+  width: 50vw;
+  top: 15vh;
+  left: 25vw;
+  opacity: 0.85;
+}
+
+main.specialportfolio div.main:hover div.content {
+  opacity: 1;
+}
+
+main.specialportfolio div.underlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  transition: 0.5s all ease;
+}
+
+main.specialportfolio div.sub div.content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+main.specialportfolio div.sub div.content p {
+  display: none;
+}
+
+main.specialportfolio div.sub div.content h3 {
+  display: none;
+}
+
+main.specialportfolio div.sub div.content h2 {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  transition: 0.7s all ease;
+}
+
+main.specialportfolio div.sub:hover {
+  z-index: 10;
+}
+
+main.specialportfolio div.sub:hover div.underlay {
+  opacity: 0;
+}
+
+main.specialportfolio div.sub:hover div.content h2 {
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+}
+
+main.specialportfolio div#project1 {
+  background: url(/images/blocks2.png);
+  background-size: cover;
+}
+
+main.specialportfolio div#project2 {
+  background: url(/images/weiding2.png);
+  background-size: cover;
+}
+
+main.specialportfolio div#project3 {
+  background: url(/images/streetsmart.png);
+  background-size: cover;
+}
+
+main.specialportfolio div#project4 {
+  background: url(/images/wikiwars.png);
+  background-size: cover;
+}
+
+main.specialportfolio div#project5 {
+  background: url(/images/fightfed2.png);
+  background-size: cover;
 }

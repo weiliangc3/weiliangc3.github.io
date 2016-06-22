@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html ng-app="aweiwithwords">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Wei With Words</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px|Lato|Montserrat|Lora' rel='stylesheet' type='text/css'>
+  <script src="/js/app.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="/css/app.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel='shortcut icon' href='/images/favicon.png' type='image/x-icon'/ >
+</head>
+
+<body ng-controller="PageController as Page">
+
+  <main class="specialportfolio">
+  <div id="project1" class="quart sub tl">
+    <div class="underlay"></div>
+    <div class="activate"></div>
+    <div class="content" ng-click="Page.portfolioActivate('project1')">
+      <h2>blocks that move</h2>
+      <p>
+        A light hearted fast-paced arcade style game. This was the first project I made after two  weeks of learning JavaScript. It doesn’t use any other code libraries other than jQuery, and I’m very proud at how positive and fun the game feels.
+      </p>
+      <h3>Technology used</h3>
+      <p>
+        HTML | CSS | JavaScript | jQuery | Object Oriented Programming
+      </p>
+      <h3>Link</h3>
+      <p>
+        Take a look at it here: <a href="http://young-reaches-60410.herokuapp.com/">http://young-reaches-60410.herokuapp.com/</a>
+      </p>
+    </div>
+  </div>
+  <div id="project2" class="quart sub tr">
+    <div class="underlay"></div>
+    <div class="activate"></div>
+    <div class="content" ng-click="Page.portfolioActivate('project2')">
+      <h2>WeiDings</h2>
+      <p>
+        A web-app for creating and managing wedding gift registries. The project focus was on streamlining the user experience and providing a mobile-friendly user interface. The user registration system relies on verification e-mails for full access.
+      </p>
+      <h3>Technology used</h3>
+      <p>
+        Ruby | Ruby on Rails | Sinatra | PostgreSQL | Foundation | SCSS | Bcrypt | Parallax.js | CarrierWave | RMagick
+      </p>
+      <h3>Link</h3>
+      <p>
+         Take a look at it here: <a href="https://tranquil-gorge-77305.herokuapp.com/">WeiDing Gifts</a>
+       </p>
+    </div>
+  </div>
+  <div id="project3" class="quart sub bl">
+    <div class="underlay"></div>
+    <div class="activate"></div>
+    <div class="content" ng-click="Page.portfolioActivate('project3')">
+      <h2>Street Smart</h2>
+      <p>
+        A game where using Google Street View, you must pinpoint your location on a Google Map. This game was made as part of a group project, and I developed the internal game logic and back-end and made strong contributions to the user experience and design elements.
+      </p>
+      <h3>Technology used</h3>
+      <p>
+        Mongoose | Express.js | Node.js | Bootstrap | AJAX | Underscore.js | Google Maps | Google Street View
+      </p>
+      <h3>Link</h3>
+      <p>
+         Take a look at it here: <a href="https://streetsmartgame.herokuapp.com/">Street Smart</a>
+       </p>
+    </div>
+  </div>
+  <div id="project4" class="quart sub br">
+    <div class="underlay"></div>
+    <div class="activate"></div>
+    <div class="content" ng-click="Page.portfolioActivate('project4')">
+      <h2>Wiki Wars</h2>
+      <p>
+        Wiki wars is our take on the Wikipedia game where the challenge is to navigate from one Wikipedia article to another in the least clicks or the least amount of time, using entirely links within Wikipedia. The project was done as part of Electron's 23:00:01 Hackathon, a 23hour and one second hackathon. This project was super fun to do, especially with the team of Peter Le and Ryan Thomas Didier McWard.
+      </p>
+      <h3>Technology used</h3>
+      <p>
+        Mongoose | Express.js | AngularJS | Node.js | MediaWiki’s API
+      </p>
+      <h3>Link</h3>
+      <p>
+         Take a look at it here: <a href="https://pwrwikiwars.herokuapp.com/">Wiki Wars</a>
+       </p>
+    </div>
+  </div>
+  <div id="project5" class="quart main">
+    <div class="underlay"></div>
+    <div class="activate"></div>
+    <div class="content" ng-click="Page.portfolioActivate('project5')">
+      <h2>Fight Federation</h2>
+      <p>
+        Fight Federation is a tournament management platform that allows people to find tournaments and join them, while also recording the results of the games, and recording the winners. The app is designed to cater to office tournaments where the game schedules may be fluid depending on other commitments, and handles the administrative aspects of running tournaments such as listing matches and calculating points.
+      </p>
+      <h3>Technology used</h3>
+      <p>
+        Mongoose | Express.js | AngularJS | Node.js | Bourbon | SCSS | Grunt | AngularUI Router | Multer
+      </p>
+      <h3>Link</h3>
+      <p>
+         Take a look at it here: <a href="https://fightfederation.herokuapp.com/">Fight Federation</a>
+       </p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
